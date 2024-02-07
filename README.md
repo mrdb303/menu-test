@@ -1,18 +1,18 @@
 ### Using the demo example of a Radix-ui Navigation menu in a React/Nextjs project
 ---  
 
-Create a new Nextjs/React project locally
+Create a new Nextjs/React project locally using npm in the console.
 
-```npx create-next-app@latest```
+`npx create-next-app@latest`
 
-```npm install @radix-ui/react-navigation-menu
-npm install @radix-ui/themes
-npm install @radix-ui/react-icons
-npm install classnames
-npm install @stitches/react```
+`npm install @radix-ui/react-navigation-menu`
+`npm install @radix-ui/themes`
+`npm install @radix-ui/react-icons`
+`npm install classnames`
+`npm install @stitches/react`
 
 
-https://codesandbox.io/p/sandbox/radix-ui-nav-menu-8r4sx4?file=%2Fsrc%2FApp.js
+The example of the demo navigation menu is [here](https://codesandbox.io/p/sandbox/radix-ui-nav-menu-8r4sx4?file=%2Fsrc%2FApp.js)
 
 -------------------------------------------------
 
@@ -21,7 +21,7 @@ The folder structure is src>components>TopMenu.js
 
 IMPORTANT! - Add this to the top of the 'TopMenu.js' script:
 
-"use client"
+`"use client";`
 
 Otherwise you will see an error: 
 [0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext)]
