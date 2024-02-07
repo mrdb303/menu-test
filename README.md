@@ -42,11 +42,11 @@ Place it into the body section, but above any {children}:
 ```<TopMenu/>```
 
 This will ensure that the menu is displayed on the template of your page, thus becoming the default menu, so can be seen regardless of any page you are are viewing within your application.
-If you have a header section, you may want to place your Navbar below it in the layout.js file.
+If you have a header section, you may want to place your `<TopMenu/>` below it in the layout.js file.
 
 -----------------------------------------------
 
-Brief explanation of the TopMenu.js file:
+Brief explanation of the `TopMenu.js` file:
 
 The first section of functions relate to css animations(keyframe functions).
 These handle the animation of the menu.
