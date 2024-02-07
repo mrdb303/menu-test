@@ -5,7 +5,7 @@ Create a new Nextjs/React project locally using npm in the console.
 
 `npx create-next-app@latest`
 
-The dependencies required are downloaded with the following console commands:
+The dependencies required are downloaded with the following console commands:<br>
 `npm install @radix-ui/react-navigation-menu`<br>
 `npm install @radix-ui/themes`<br>
 `npm install @radix-ui/react-icons`<br>
@@ -13,19 +13,19 @@ The dependencies required are downloaded with the following console commands:
 `npm install @stitches/react`<br>
 <br>
 
-The example of the demo navigation menu is [here](https://codesandbox.io/p/sandbox/radix-ui-nav-menu-8r4sx4?file=%2Fsrc%2FApp.js)
+The example of the demo navigation menu is on a codesandbox page [here](https://codesandbox.io/p/sandbox/radix-ui-nav-menu-8r4sx4?file=%2Fsrc%2FApp.js).
 
 -------------------------------------------------
 
-The code from the code sandbox from src>App.js was copied as js and placed into a new component named 'TopMenu.js'.
-The folder structure is src>components>TopMenu.js
+The code from the code sandbox from the path `src>App.js` was copied and placed into a new component named 'TopMenu.js'.
+The folder structure is `src>components>TopMenu.js`<br>
 
-IMPORTANT! - Add this to the top of the 'TopMenu.js' script:
+IMPORTANT! - Add this to the top of the 'TopMenu.js' script:<br>
 
-`"use client";`
+`"use client";`<br>
 
-Otherwise you will see an error: 
-[0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext)]
+Otherwise you will see the error:<br>
+`[0 , react__WEBPACK_IMPORTED_MODULE_0__.createContext)]`
 
 -------------------------------------------------------
 
