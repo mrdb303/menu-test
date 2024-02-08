@@ -67,8 +67,8 @@ You can apply a theme by importing the component and including it in your layout
 For the purposes of this demo, it is not needed.
 
 
-const ContentListItemCallout = React.forwardRef(({ children, ...props }, forwardedRef) {
-}
+`const ContentListItemCallout = React.forwardRef(({ children, ...props }, forwardedRef) {`<br>
+`}`
 
 This is the section for the SVG image and text in the menu.
 
@@ -83,36 +83,24 @@ forwardRef lets your component expose a DOM node to parent component with a ref.
 
 -----------------
 
-Colours
-========
+## Colours
+===
 
 Radix uses a set of pre-chosen colours and gives you 12 hues of the same colour to work with.
 For example 'purple' ranges from 1 to 12. 
 
-For example, you would refer to the colour purple at hue number 5 as:
+To use a colour, such as colour purple at hue level five, you would refer to it in the code as `purple.purple5`
 
-purple.purple5
-
-The lighter the hue, the lower the number. So the value will range from:
+The lighter the hue, the lower the number and the value will range from:
 
 purple.purple1 to purple.purple12
 
 
-To change 
+The menu hover colour in the code is set in two places.
 
+The colour for the parent section of the menu, is set within `const itemStyles`.<br>
+For the child menu items, it is within `const ContentListItem`<br> 
 
-const itemStyles = hover at root menu
-
-const ContentListItem = hover on menu children
-
-
-
-Lighter
-purple.purple3
-Darker
-purple.purple10
-
-purple3 to purple6
 ---------
 
 Line 184:
