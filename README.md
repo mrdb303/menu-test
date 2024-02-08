@@ -67,7 +67,7 @@ For the purposes of this demo, it is not needed.
 
 This is the section for the SVG image and text in the menu.
 
-`React.forwardRef\(\)`
+`React.forwardRef()`<br>
 forwardRef lets your component expose a DOM node to parent component with a ref.
 ---
 
@@ -116,9 +116,9 @@ In this example, layout "one" is set to display at a certain screen width
 Most basic menu item.
 
 
-`    <NavigationMenuItem>
-          <NavigationMenuLink href="https://github.com/radix-ui">Github</NavigationMenuLink>
-    </NavigationMenuItem>`
+`    <NavigationMenuItem><br>
+          <NavigationMenuLink href="https://github.com/radix-ui">Github</NavigationMenuLink><br>
+    </NavigationMenuItem>`<br>
 
 
 ---
