@@ -72,7 +72,7 @@ For the purposes of this demo, it is not needed.
 
 This is the section for the SVG image and text in the menu.
 
-React.forwardRef()
+`React.forwardRef()`
 forwardRef lets your component expose a DOM node to parent component with a ref.
 ------------------------------
 
@@ -115,7 +115,7 @@ Maps styles to components.
 
 <NavigationMenuContent> Next child, the start of the content.
 
-<ContentList layout="one"> this relates to an object within the script that handles an unordered list, 
+`<ContentList layout="one">` this relates to an object within the script that handles an unordered list, 
 In this example, layout "one" is set to display at a certain screen width
 
 Most basic menu item.
