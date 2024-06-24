@@ -69,6 +69,7 @@ This is the section for the SVG image and text in the menu.
 
 `React.forwardRef()`<br>
 forwardRef lets your component expose a DOM node to parent component with a ref.
+
 ---
 
 

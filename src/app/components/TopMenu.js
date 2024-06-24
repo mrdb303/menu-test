@@ -4,7 +4,7 @@ import React from 'react';
 import { styled, keyframes } from '@stitches/react';
 import * as NavigationMenuPrimitive from '@radix-ui/react-navigation-menu';
 import { CaretDownIcon } from '@radix-ui/react-icons';
-import { purple, iris, blackA } from '@radix-ui/colors';
+import { purple, blackA } from '@radix-ui/colors';
 
 
 const enterFromRight = keyframes({
@@ -121,7 +121,7 @@ const StyledContent = styled(NavigationMenuPrimitive.Content, {
   top: 0,
   left: 0,
   width: '100%',
-  '@media only screen and (min-width: 600px)': { width: 'auto' },
+  '@media only screen and (min-width: 320px)': { width: 'auto' },
   '@media (prefers-reduced-motion: no-preference)': {
     animationDuration: '250ms',
     animationTimingFunction: 'ease',
@@ -175,7 +175,7 @@ const StyledViewport = styled(NavigationMenuPrimitive.Viewport, {
   boxShadow: 'hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px',
   height: 'var(--radix-navigation-menu-viewport-height)',
 
-  '@media only screen and (min-width: 600px)': {
+  '@media only screen and (min-width: 320px)': {
     width: 'var(--radix-navigation-menu-viewport-width)',
   },
   '@media (prefers-reduced-motion: no-preference)': {
@@ -219,20 +219,20 @@ const ContentList = styled('ul', {
   variants: {
     layout: {
       one: {
-        '@media only screen and (min-width: 600px)': {
+        '@media only screen and (min-width: 320px)': {
           width: 500,
           gridTemplateColumns: '.75fr 1fr',
         },
       },
       two: {
-        '@media only screen and (min-width: 600px)': {
+        '@media only screen and (min-width: 320px)': {
           width: 600,
           gridAutoFlow: 'column',
           gridTemplateRows: 'repeat(3, 1fr)',
         },
       },
       three: {
-        '@media only screen and (min-width: 600px)': {
+        '@media only screen and (min-width: 320px)': {
           width: 300,
           gridTemplateRows: 'repeat(2, 1fr)',
         },
@@ -335,13 +335,15 @@ export const NavigationMenuDemo = () => {
           <NavigationMenuContent>
             <ContentList layout="one">
               <ContentListItemCallout />
-              <ContentListItem href="/pages/mission" title="Our mission">
+              <ContentListItem href="/pages/mission" 
+                title="Our mission">
                 To provide you with quality pies.
               </ContentListItem>
-              <ContentListItem href="/pages/savour" title="Savour the flavours">
-                Enjoy your favourite flavours, wrapped in pastry goodness. 
+              <ContentListItem href="/pages/savour" 
+                title="Savour the flavours">
+                Enjoy your favourite flavours, wrapped 
+                in pastry goodness. 
               </ContentListItem>
-
             </ContentList>
           </NavigationMenuContent>
         </NavigationMenuItem>
@@ -427,7 +429,9 @@ export const NavigationMenuDemo = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuLink href="https://github.com">Our Bakery</NavigationMenuLink>
+          <NavigationMenuLink href="https://github.com">
+            Our Bakery
+          </NavigationMenuLink>
         </NavigationMenuItem>
 
 
