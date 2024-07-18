@@ -6,12 +6,14 @@ Create a new Nextjs/React project locally using npm in the console.
 `npx create-next-app@latest`
 
 The dependencies required are downloaded with the following console commands:<br>
-`npm install @radix-ui/react-navigation-menu`<br>
-`npm install @radix-ui/themes`<br>
-`npm install @radix-ui/react-icons`<br>
-`npm install classnames`<br>
-`npm install @stitches/react`<br>
-<br>
+
+```
+npm install @radix-ui/react-navigation-menu
+npm install @radix-ui/themes
+npm install @radix-ui/react-icons
+npm install classnames
+npm install @stitches/react
+```
 
 The example of the demo navigation menu is on a codesandbox page [here](https://codesandbox.io/p/sandbox/radix-ui-nav-menu-8r4sx4?file=%2Fsrc%2FApp.js).
 
@@ -88,7 +90,7 @@ The menu hover colour in the code is set in two places.
 The colour for the parent section of the menu, is set within `const itemStyles`.<br>
 For the child menu items, it is within `const ContentListItem`<br> 
 
----------
+---
 
 
 ## Map styles to components
@@ -111,8 +113,10 @@ In this example, layout "one" is set to display at a certain screen width
 ## Most basic menu item.
 
 
-`<NavigationMenuItem>`<br>
-`  <NavigationMenuLink href="https://github.com/radix-ui">Github</NavigationMenuLink>`<br>
-`</NavigationMenuItem>`<br>
+```
+<NavigationMenuItem>
+  <NavigationMenuLink href="https://github.com/radix-ui">Github</NavigationMenuLink>`
+</NavigationMenuItem>
+```
 
 
