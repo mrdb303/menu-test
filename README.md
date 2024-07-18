@@ -105,9 +105,10 @@ For the child menu items, it is within `const ContentListItem`<br>
 
 <br>
 This code starts from line 184:
-<br>
+
 
 `<NavigationMenuItem>` - encapsulates a top menu item<br>
+
 `<NavigationMenuTrigger>Learn</NavigationMenuTrigger>` - First child that instructs for an 
 action to be carried out, contains the text value of the top menu item.<br>
 Not needed if the top menu item is a single link.<br>
@@ -116,7 +117,8 @@ Not needed if the top menu item is a single link.<br>
 
 `<ContentList layout="one">` this relates to an object within the script that handles an unordered list, 
 In this example, layout "one" is set to display at a certain screen width
-<br>
+
+
 
 ## Most basic menu item.
 
