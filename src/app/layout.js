@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <>
-        
           <Header/>
           <TopMenu/>
           <div id="wrapper">
