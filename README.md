@@ -22,6 +22,8 @@ The example of the demo navigation menu is on a codesandbox page [here](https://
 
 -------------------------------------------------
 
+## Steps taken to convert to React/Nextjs from the sandbox code
+
 The code from the code sandbox from the path `src>App.js` was copied and placed into a new component named 'TopMenu.js'.
 The folder structure is `src>components>TopMenu.js`<br>
 
@@ -104,7 +106,7 @@ For the child menu items, it is within `const ContentListItem`<br>
 ## Map styles to components
 
 <br>
-This code starts from line 184:
+This code starts from line 184:<br>
 
 
 `<NavigationMenuItem>` - encapsulates a top menu item<br>
