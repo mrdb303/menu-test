@@ -19,6 +19,8 @@ npm install @stitches/react
 ```
 
 The example of the demo navigation menu is on a codesandbox page [here](https://codesandbox.io/p/sandbox/radix-ui-nav-menu-8r4sx4?file=%2Fsrc%2FApp.js).
+<br>
+<br>
 
 
 
@@ -56,6 +58,8 @@ Place it into the body section, but above any {children}:
 
 This will ensure that the menu is displayed on the template of your page, thus becoming the default menu, so can be seen regardless of any page you are are viewing within your application.
 If you have a header section, you may want to place your `<TopMenu/>` below it in the layout.js file.
+<br>
+<br>
 
 
 
@@ -104,7 +108,8 @@ The menu hover colour in the code is set in two places.
 
 The colour for the parent section of the menu, is set within `const itemStyles`.<br>
 For the child menu items, it is within `const ContentListItem`<br> 
-
+<br>
+<br>
 
 
 
@@ -125,6 +130,8 @@ Not needed if the top menu item is a single link.<br>
 
 `<ContentList layout="one">` this relates to an object within the script that handles an unordered list, 
 In this example, layout "one" is set to display at a certain screen width.<br>
+<br>
+<br>
 
 
 
