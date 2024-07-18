@@ -83,6 +83,7 @@ const ContentListItemCallout = React.forwardRef(({ children, ...props }, forward
 
 This is the section for the SVG image and text in the menu.
 
+
 `React.forwardRef()`<br>
 forwardRef lets your component expose a DOM node to parent component with a ref.
 <br>
@@ -139,6 +140,7 @@ In this example, layout "one" is set to display at a certain screen width.<br>
 
 
 <br>
+
 ```
 <NavigationMenuItem>
   <NavigationMenuLink href="https://github.com/radix-ui">Github</NavigationMenuLink>`
