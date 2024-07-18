@@ -1,6 +1,6 @@
 # Using the demo example of a Radix-ui Navigation menu in a React/Nextjs project
----  
 
+<br>
 Create a new Nextjs/React project locally using npm in the console.
 
 ```
@@ -23,7 +23,7 @@ The example of the demo navigation menu is on a codesandbox page [here](https://
 
 
 ## Steps taken to convert to React/Nextjs from the sandbox code
----
+
 
 <br>
 The code from the code sandbox from the path `src>App.js` was copied and placed into a new component named 'TopMenu.js'.
@@ -60,7 +60,7 @@ If you have a header section, you may want to place your `<TopMenu/>` below it i
 
 
 ## Brief explanation of the `TopMenu.js` file:
----
+
 
 <br>
 The first section of functions relate to css animations(keyframe functions).
@@ -87,7 +87,7 @@ forwardRef lets your component expose a DOM node to parent component with a ref.
 
 
 ## Colours
----
+
 
 <br>
 Radix uses a set of pre-chosen colours and gives you 12 hues of the same colour to work with.
@@ -109,7 +109,7 @@ For the child menu items, it is within `const ContentListItem`<br>
 
 
 ## Map styles to components
----
+
 
 <br>
 This code starts from line 184:<br>
@@ -129,7 +129,7 @@ In this example, layout "one" is set to display at a certain screen width.<br>
 
 
 ## Most basic menu item.
----
+
 
 ```
 <NavigationMenuItem>
