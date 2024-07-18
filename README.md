@@ -66,6 +66,7 @@ This is the section for the SVG image and text in the menu.
 `React.forwardRef()`<br>
 forwardRef lets your component expose a DOM node to parent component with a ref.
 <br>
+<br>
 
 
 
@@ -89,22 +90,25 @@ For the child menu items, it is within `const ContentListItem`<br>
 
 ---------
 
-Line 184:
-Maps styles to components.
 
+## Map styles to components
 
+<br>
+This code starts from line 184:
+<br>
 
-`<NavigationMenuItem>` - encapsulates a top menu item
+`<NavigationMenuItem>` - encapsulates a top menu item<br>
 `<NavigationMenuTrigger>Learn</NavigationMenuTrigger>` - First child that instructs for an 
-  action to be carried out, contains the text value of the top menu item.
-  Not needed if the top menu item is a single link.  
+action to be carried out, contains the text value of the top menu item.<br>
+Not needed if the top menu item is a single link.<br>
 
 `<NavigationMenuContent>` Next child, the start of the content.
 
 `<ContentList layout="one">` this relates to an object within the script that handles an unordered list, 
 In this example, layout "one" is set to display at a certain screen width
+<br>
 
-Most basic menu item.
+## Most basic menu item.
 
 
 `<NavigationMenuItem>`<br>
