@@ -138,6 +138,7 @@ In this example, layout "one" is set to display at a certain screen width.<br>
 ## Most basic menu item.
 
 
+<br>
 ```
 <NavigationMenuItem>
   <NavigationMenuLink href="https://github.com/radix-ui">Github</NavigationMenuLink>`
