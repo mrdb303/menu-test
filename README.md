@@ -1,4 +1,4 @@
-### Using the demo example of a Radix-ui Navigation menu in a React/Nextjs project
+# Using the demo example of a Radix-ui Navigation menu in a React/Nextjs project
 ---  
 
 Create a new Nextjs/React project locally using npm in the console.
@@ -20,10 +20,12 @@ npm install @stitches/react
 
 The example of the demo navigation menu is on a codesandbox page [here](https://codesandbox.io/p/sandbox/radix-ui-nav-menu-8r4sx4?file=%2Fsrc%2FApp.js).
 
--------------------------------------------------
+
 
 ## Steps taken to convert to React/Nextjs from the sandbox code
+---
 
+<br>
 The code from the code sandbox from the path `src>App.js` was copied and placed into a new component named 'TopMenu.js'.
 The folder structure is `src>components>TopMenu.js`<br>
 
@@ -55,10 +57,12 @@ Place it into the body section, but above any {children}:
 This will ensure that the menu is displayed on the template of your page, thus becoming the default menu, so can be seen regardless of any page you are are viewing within your application.
 If you have a header section, you may want to place your `<TopMenu/>` below it in the layout.js file.
 
------------------------------------------------
+
 
 ## Brief explanation of the `TopMenu.js` file:
+---
 
+<br>
 The first section of functions relate to css animations(keyframe functions).
 These handle the animation of the menu.
 
@@ -83,8 +87,9 @@ forwardRef lets your component expose a DOM node to parent component with a ref.
 
 
 ## Colours
+---
 
-
+<br>
 Radix uses a set of pre-chosen colours and gives you 12 hues of the same colour to work with.
 For example 'purple' ranges from 1 to 12. 
 
@@ -100,10 +105,11 @@ The menu hover colour in the code is set in two places.
 The colour for the parent section of the menu, is set within `const itemStyles`.<br>
 For the child menu items, it is within `const ContentListItem`<br> 
 
----
+
 
 
 ## Map styles to components
+---
 
 <br>
 This code starts from line 184:<br>
@@ -118,12 +124,12 @@ Not needed if the top menu item is a single link.<br>
 `<NavigationMenuContent>` Next child, the start of the content.
 
 `<ContentList layout="one">` this relates to an object within the script that handles an unordered list, 
-In this example, layout "one" is set to display at a certain screen width
+In this example, layout "one" is set to display at a certain screen width.<br>
 
 
 
 ## Most basic menu item.
-
+---
 
 ```
 <NavigationMenuItem>
