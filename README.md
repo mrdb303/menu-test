@@ -3,7 +3,10 @@
 
 Create a new Nextjs/React project locally using npm in the console.
 
-`npx create-next-app@latest`
+```
+npx create-next-app@latest
+```
+<br>
 
 The dependencies required are downloaded with the following console commands:<br>
 
